@@ -5,5 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-  },
-});
+    baseUrl: 'https://demowebshop.tricentis.com',
+    defaultCommandTimeout: 5000,
+    video: true,
+    screenshotOnRunFailure: true
+  }
+})
