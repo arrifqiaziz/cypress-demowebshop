@@ -1,0 +1,14 @@
+{
+  "name": "cypress-demowebshop",
+  "version": "1.0.0",
+  "description": "cypress-webshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arrifqiaziz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
