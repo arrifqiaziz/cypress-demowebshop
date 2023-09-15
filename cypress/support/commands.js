@@ -12,3 +12,9 @@ Cypress.Commands.add('logout', () => {
   cy.contains('Log in').should('be.visible')
   cy.log('Logout Berhasil')
 })
+
+Cypress.Commands.add('search', (search) => {
+  cy.get('#small-searchterms').should('be.visible').clear().type(search)
+  cy.get('form > .button-1').should('be.visible').click()
+  cy.url().should('include', '/search')
+})

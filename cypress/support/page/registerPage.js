@@ -1,4 +1,5 @@
 class registerPage {
+  // This is function for Gender Generator
   randomGender() {
     const gender = ['male', 'female']
     const random = Math.floor(Math.random() * gender.length)
