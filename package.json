@@ -4,7 +4,11 @@
   "description": "cypress-webshop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "registerLoginLogout": "npx cypress run --browser chrome --spec 'cypress/e2e/demoWebShop/registerLoginLogout.cy.js'",
+    "search": "npx cypress run --browser chrome --spec 'cypress/e2e/demoWebShop/search.cy.js'",
+    "cart": "npx cypress run --browser chrome --spec 'cypress/e2e/demoWebShop/cart.cy.js'",
+    "checkout": "npx cypress run --browser chrome --spec 'cypress/e2e/demoWebShop/checkout.cy.js'",
+    "generateReport": "npx cypress run --browser chrome --reporter junit --reporter-options 'mochaFile=reports/TEST-[hash].xml'"
   },
   "author": "arrifqiaziz",
   "license": "ISC",

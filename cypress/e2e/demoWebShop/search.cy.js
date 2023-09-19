@@ -1,6 +1,6 @@
 import searchPage from '../../support/page/searchPage'
 
-describe('Feature Register, Login and Logout', () => {
+describe('Feature Search Product', () => {
   beforeEach(() => {
     cy.visit('')
   })
