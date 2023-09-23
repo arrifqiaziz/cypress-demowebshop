@@ -8,10 +8,10 @@ This repository is a documentation of week 2 from [Bootcamp Intermediate Quality
 
 ## How to run it ?
 
-1. Make sure the npm and cypress in installed and working correctly (if not yet please follow [this step](https://appium.io/docs/en/2.1/quickstart/) )
+1. Make sure the npm and cypress in installed and working correctly (if not yet please follow [this step](https://docs.cypress.io/guides/getting-started/installing-cypress) )
 2. Clone this repository to local
-3. Install in local with `npm install` or `npm i -g npm` (node_modules is not include with this repo, so it should be install first)
-4. Run the code with `npm run wdio` or run each spec with `npm run follow` or `npm run message`
+3. Install in local with `npm install` or `npm i -g npm`
+4. Run the code with `npx cypress open` or run headless with `npm run {{check script in package.json file}}` or run direct with Github Action
 
 #### Signature
 
